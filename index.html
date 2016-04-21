@@ -1,0 +1,339 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>我的学习导航</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/BootSideMenu.css">
+
+<style type="text/css">
+	  .user{
+	    padding:5px;
+	    margin-bottom: 5px;
+	  }
+a{color: #000;}
+	</style>
+</head>
+<body class="body">
+<!--头部-->
+<header>
+
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#1">浏览器 <span class="sr-only">(current)</span></a></li>
+        <li><a href="#2">浏览器插件</a></li>
+        <li><a href="#3">国外名站</a></li>
+        <li><a href="#4">自学站</a></li>
+        <li><a href="#5">技术站</a></li>
+        <li><a href="#6">IT资讯</a></li>
+        <li><a href="#7">资讯阅读</a></li>
+        <!--百度搜索-->
+        <li>
+            <form action="http://www.baidu.com/baidu" target="_blank" class="navbar-form navbar-left" role="search">
+                <table bgcolor="#FFFFFF"><tr><td>
+                <div class="form-group">
+                    <input name=tn type=hidden value=baidu>
+                    <a href="http://www.baidu.com/"><img src="http://img.baidu.com/img/logo-80px.gif" alt="Baidu" align="bottom" border="0"></a>
+                    </div>
+                    <input type="text" name=word size=30 class="form-control">
+                    <input type="submit" value="百度搜索" class="btn btn-default">
+                </td></tr></table>
+            </form>
+            </li>
+            <li><iframe width="280" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=34&icon=1&num=3"></iframe></li>
+        </nav>
+    </header> 
+    
+    
+    <!--侧边提醒工具-->
+    <div id="test" style="filter:alpha(opacity=90);  
+      -moz-opacity:0.9;  
+      -khtml-opacity: 0.9;  
+      opacity: 0.9;">
+      <!--侧边导航-->
+      <h4 style="text-align:center;">全站导航</h4>
+	    <div class="list-group" style="margin-top:10px;">
+  <a href="#" class="list-group-item active" onclick="daohang()">
+    我的学习导航
+  </a>
+  <a href="textbox.html" class="list-group-item" onclick="textbox()">记事本or学习笔记</a>
+  <a href="#" class="list-group-item" onclick="word()">世界美</a>
+  <a href="#" class="list-group-item" onclick="my()">我的财富</a>
+</div>
+<script type="text/javascript">
+  function textbox(){
+      window.open('textbox.html','_self')
+  } 
+  function daohang(){
+      window.open('index.html','_self')
+  } 
+  function word(){
+      window.open('sjm.html','_self')
+  }
+  function my(){
+      window.open('my.html','_self')
+  }
+</script>
+
+	    <div class="list-group">
+        <h4 style="text-align:center;">我的学习计划</h4>
+        <div style="margin-left:10px;">
+        <p>学习《Javascipt进阶篇》</p>
+        <p>学习《Javascipt深入浅出》</p>
+        <p>学习《jQuery源码解析》</p>
+         <p>深入学习node.js与ajax</p>
+         <p>复习与深入学习Html5、CSS3</p>
+         <p>自己制作项目</p>
+         <p>安卓学习</p>
+         </div>
+	    </div>
+        </div>
+        
+        
+       <!--浏览器-->
+       
+        <!--内容行-->
+        <div class="row show-grid">
+        <div class="col-lg-2"></div>
+         
+            <table class="col-lg-8">
+            <tr><!--标签行-->
+            	<td class="col-md-1" style="margin:0; padding:0; border:0;"><div class="td-header"><a name="1" id="1">浏览器</a></div></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+            </tr>
+            <tr>
+                <td class="col-md-1 td"><a href="http://rj.baidu.com/soft/detail/14744.html?ald">Chrome</a></td>
+                <td class="col-md-1 td"><a href="http://www.firefox.com.cn/">Firefox</a></td>
+                <td class="col-md-1 td"><a href="http://www.opera.com/zh-cn">Opera</a></td>
+                <td class="col-md-1 td"><a href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie">IE</a></td>
+                <td class="col-md-1 td"><a href="http://rj.baidu.com/soft/detail/12966.html?ald">Safari浏览器</a></td>
+                <td class="col-md-1 td"><a href="http://browser.qq.com/?adtag=SEM1">QQ浏览器</a></td>
+
+            </tr>
+            <tr>
+                <td class="col-md-1 td"><a href="http://ie.sogou.com/">搜狗浏览器</a></td>
+                <td class="col-md-1 td"><a href="http://se.360.cn/">360浏览器</a></td>
+                <td class="col-md-1 td"><a href="http://www.liebao.cn/">猎豹浏览器</a></td>
+                <td class="col-md-1 td"><a href="http://liulanqi.baidu.com/?sid=11100016">百度浏览器</a></td>
+            </tr>
+        </table>
+          <div class="col-lg-2"></div>
+          </div>
+          
+          <!--浏览器插件-->
+        <!--内容行-->
+        <div class="row show-grid">
+        <div class="col-lg-2"></div>
+         <table class="col-lg-8">
+         <tr><!--标签行-->
+            	<td class="col-md-1" style="margin:0; padding:0; border:0;"><div class="td-header"><a name="2" id="2">浏览器插件</a></div></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+            </tr>
+            <tr>
+                <td class="col-md-1 td"><a href="http://45.124.67.101:8080/">壁虎漫步</a></td>
+                <td class="col-md-1 td"><a href="https://adblockplus.org/">Adblock Plus</a></td>
+                <td class="col-md-1 td"><a href="http://getfirebug.com/">FireBug</a></td>
+                <td class="col-md-1 td"><a href="https://addons.mozilla.org/zh-CN/firefox/addon/249">html validator</a></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+            </tr>
+        </table>
+          <div class="col-lg-2"></div>
+          </div>
+    
+         <!--国外名站-->
+        <!--内容行-->
+        <div class="row show-grid">
+        <div class="col-lg-2"></div>
+         <table class="col-lg-8">
+         <tr><!--标签行国外名站-->
+            	<td class="col-md-1" style="margin:0; padding:0; border:0;"><div class="td-header"><a name="3" id="3">国外名站</a></div></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+            </tr>
+            <tr>
+                <tr>
+                 <td class="col-md-1 td"><a href="https://www.youtube.com/">YouTube</a></td>
+                 <td class="col-md-1 td"><a href="https://www.yahoo.com/">Yahoo</a></td>
+                 <td class="col-md-1 td"><a href="https://www.facebook.com/">facebook</a></td>
+                 <td class="col-md-1 td"><a href="https://www.google.com.hk/">google</a></td>
+                 <td class="col-md-1 td"><a href="https://mail.google.com">gmail</a></td>
+                 <td class="col-md-1 td"><a href="http://www.amazon.cn/">亚马逊</a></td>
+            </tr>
+            <tr>
+                 <td class="col-md-1 td"><a href="https://zh.wikipedia.org">维基百科</a></td>
+                 <td class="col-md-1 td"><a href="http://www.bbc.com/">bbc</a></td>
+                 
+            </tr>
+        </table>
+          <div class="col-lg-2"></div>
+          </div>
+          
+   
+        
+        <!--自学站-->
+        <div class="row show-grid">
+        <div class="col-lg-2"></div>
+         <table class="col-lg-8">  
+         <tr><!--标签行自学站-->
+            	<td class="col-md-1" style="margin:0; padding:0; border:0;"><div class="td-header"><a name="4" id="4">自学站</a></div></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+            </tr>        
+            <tr>
+                <td class="col-md-1 td"><a href="http://www.51zxw.net/">我要自学网</a></td>
+                <td class="col-md-1 td"><a href="http://jiaoyu.baidu.com/">百度教育</a></td>
+                <td class="col-md-1 td"><a href="http://www.imooc.com/">慕课网</a></td>
+                <td class="col-md-1 td"><a href="http://www.jikexueyuan.com/">极客学院</a></td>
+                <td class="col-md-1 td"><a href="http://open.163.com/">网易公开课</a></td>
+                <td class="col-md-1 td"><a href="http://study.163.com/">网易云课堂</a></td>
+            </tr>
+            <tr>
+                <td class="col-md-1 td"><a href="http://www.osforce.cn/">开源力量</a></td>
+                <td class="col-md-1 td"><a href="http://www.kaikeba.com/">开课吧</a></td>
+                <td class="col-md-1 td"><a href="http://www.icourse163.org/">中国大学MOOC</a></td>
+                <td class="col-md-1 td"><a href="http://mooc.guokr.com/">果壳MOOC</a></td>
+                <td class="col-md-1 td"><a href="http://www.topu.com/">顶你学堂</a></td>
+                <td class="col-md-1 td"><a href="https://ke.qq.com/">腾讯课堂</a></td>
+            </tr>   
+        </table>
+          <div class="col-lg-2"></div>
+          </div>
+
+        
+        <!--技术站-->
+        <div class="row show-grid">
+        <div class="col-lg-2"></div>
+         <table class="col-lg-8">
+         <tr><!--标签行技术站-->
+            	<td class="col-md-1" style="margin:0; padding:0; border:0;"><div class="td-header"><a name="5" id="5">技术站</a></div></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+            </tr>          
+            <tr>
+                <td class="col-md-1 td"><a href="http://www.52pojie.cn/">吾爱破解</a></td>
+                <td class="col-md-1 td"><a href="https://scholar.google.com/">谷歌学术</a></td>
+                <td class="col-md-1 td"><a href="https://www.v2ex.com/">v2ex</a></td>
+                <td class="col-md-1 td"><a href="http://www.51cto.com/">51cto</a></td>
+                <td class="col-md-1 td"><a href="http://www.csdn.net/">csdn</a></td>
+                <td class="col-md-1 td"><a href="http://www.oschina.net/">开源中国</a></td>
+            </tr>
+            <tr>
+                <td class="col-md-1 td"><a href="http://www.goodgoodhack.com/">天启科技</a></td>
+                <td class="col-md-1 td"><a href="http://www.hack80.com/">hack80</a></td>
+                <td class="col-md-1 td"><a href="http://www.wooyun.org/">乌云网</a></td>
+          
+            </tr>      
+        </table>
+          <div class="col-lg-2"></div>
+          </div>      
+        
+        <!--IT资讯-->
+        <div class="row show-grid">
+        <div class="col-lg-2"></div>
+         <table class="col-lg-8">
+         <tr> <!--标签行IT资讯-->
+            	<td class="col-md-1" style="margin:0; padding:0; border:0;"><div class="td-header"><a name="6" id="6">IT资讯</a></div></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+            </tr>          
+            <tr>
+                <td class="col-md-1 td"><a href="http://www.ithome.com/">IT之家</a></td>
+                <td class="col-md-1 td"><a href="http://www.cnbeta.com/">cnbeta</a></td>
+                <td class="col-md-1 td"><a href="http://tech.sina.com.cn/">新浪科技</a></td>
+                <td class="col-md-1 td"><a href="http://36kr.com/">36氪</a></td>
+                <td class="col-md-1 td"><a href="http://www.huxiu.com/">虎嗅</a></td>
+                <td class="col-md-1 td"><a href="http://www.guokr.com/">果壳</a></td>
+            </tr>
+            <tr>
+                <td class="col-md-1 td"><a href="http://www.tmtpost.com/">钛媒体</a></td>
+                <td class="col-md-1 td"><a href="http://www.iheima.com/">IT黑马</a></td>
+                <td class="col-md-1 td"><a href="http://www.leiphone.com/">雷锋网</a></td>
+                <td class="col-md-1 td"><a href="http://baijia.baidu.com/">百度百家</a></td>
+                <td class="col-md-1 td"><a href="http://tech.163.com/">网易科技</a></td>
+                <td class="col-md-1 td"><a href="http://tech.ifeng.com/">凤凰科技</a></td>
+            </tr>
+            <tr>
+                <td class="col-md-1 td"><a href="http://www.doit.com.cn/">DOIT</a></td>
+                <td class="col-md-1 td"><a href="http://tech.huanqiu.com/">环球科技</a></td>
+                <td class="col-md-1 td"><a href="http://www.geekpark.net/">极客公园</a></td>
+            </tr>   
+        </table>
+          <div class="col-lg-2"></div>
+          </div>
+            
+        <!--资讯阅读-->
+        <div class="row show-grid">
+        <div class="col-lg-2"></div>
+         <table class="col-lg-8">
+         <tr><!--标签资讯阅读-->
+            	<td class="col-md-1" style="margin:0; padding:0; border:0;"><div class="td-header"><a name="7" id="7">资讯阅读</div></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+            </tr>          
+             <tr>
+                <td class="col-md-1 td"><a href="http://www.zhihu.com/">知乎</a></td>
+                <td class="col-md-1 td"><a href="http://www.guokr.com/">果壳</a></td>
+                <td class="col-md-1 td"><a href="http://9yls.net/">第九阅览室</a></td>
+                <td class="col-md-1 td"><a href="http://www.jianshu.com/">简书</a></td>
+                <td class="col-md-1"></td>
+                <td class="col-md-1"></td>
+            </tr>    
+        </table>
+          <div class="col-lg-2"></div>
+          </div>
+          
+     <!--底部-->
+    
+     <nav class="navbar navbar-default" style="margin-bottom:0px; margin-top:30px; height:50px;b">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+ 
+    <footer style="line-height:50px; text-align:center;">Copyright 2016 by lengroubao &nbsp;&nbsp;&nbsp;如果你需要将你的酷站加入我们的导航或者你发现了BUG都可以与我取得联系<a href="mailto: lengroubao@gmail.com" style="color:#06F">lengroubao@gmail.com</a></footer>
+    
+    <script src="http://libs.useso.com/js/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js"></script>
+   <script src="js/BootSideMenu.js"></script>
+    <script type="text/javascript">
+	  $(document).ready(function(){
+	      $('#test').BootSideMenu({side:"left", autoClose:false});
+	  });
+	</script>
+    
+<body>
+</body>
+</html>
